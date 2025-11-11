@@ -26,12 +26,12 @@ export default function Dashboard() {
   ];
 
   const procurementTrend = [
-    { month: "Apr", value: 450000 },
-    { month: "May", value: 520000 },
-    { month: "Jun", value: 480000 },
-    { month: "Jul", value: 610000 },
-    { month: "Aug", value: 550000 },
-    { month: "Sep", value: 670000 },
+    { month: "Apr", value: 320000 },
+    { month: "May", value: 580000 },
+    { month: "Jun", value: 350000 },
+    { month: "Jul", value: 750000 },
+    { month: "Aug", value: 620000 },
+    { month: "Sep", value: 420000 },
   ];
 
   return (
