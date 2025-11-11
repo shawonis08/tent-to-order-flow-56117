@@ -109,7 +109,7 @@ export default function ComparativeStatement() {
           <CardContent className="pt-6">
             <div>
               <p className="text-sm text-muted-foreground">Potential Savings</p>
-              <p className="text-2xl font-bold text-green-600">₹ 1,368</p>
+              <p className="text-2xl font-bold text-green-600">৳ 1,368</p>
             </div>
           </CardContent>
         </Card>
@@ -171,8 +171,8 @@ export default function ComparativeStatement() {
                                 {groupBy === "item" ? quote.supplier : quote.item}
                               </TableCell>
                               <TableCell className="text-right">{quote.quantity}</TableCell>
-                              <TableCell className="text-right">₹ {quote.unitPrice.toFixed(2)}</TableCell>
-                              <TableCell className="text-right">₹ {quote.total.toLocaleString()}</TableCell>
+                              <TableCell className="text-right">৳ {quote.unitPrice.toFixed(2)}</TableCell>
+                              <TableCell className="text-right">৳ {quote.total.toLocaleString()}</TableCell>
                               <TableCell className="text-center">
                                 <Badge variant={quote.deliveryDays <= 7 ? "default" : "secondary"}>
                                   {quote.deliveryDays} days

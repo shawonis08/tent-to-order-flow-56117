@@ -77,8 +77,8 @@ export default function SupplierQuotation() {
                   <TableHead>Price</TableHead>
                   <TableHead>Stock UOM</TableHead>
                   <TableHead>Price per Unit</TableHead>
-                  <TableHead>Price (INR)</TableHead>
-                  <TableHead>Price Per Unit (INR)</TableHead>
+                  <TableHead>Price (BDT)</TableHead>
+                  <TableHead>Price Per Unit (BDT)</TableHead>
                   <TableHead>Supplier Quotation</TableHead>
                 </TableRow>
               </TableHeader>
@@ -90,12 +90,12 @@ export default function SupplierQuotation() {
                     <TableCell>{quote.item}</TableCell>
                     <TableCell>{quote.uom}</TableCell>
                     <TableCell>{quote.quantity.toFixed(3)}</TableCell>
-                    <TableCell>INR</TableCell>
-                    <TableCell>₹ {quote.price.toLocaleString()}</TableCell>
+                    <TableCell>BDT</TableCell>
+                    <TableCell>৳ {quote.price.toLocaleString()}</TableCell>
                     <TableCell>{quote.uom}</TableCell>
-                    <TableCell>₹ {quote.pricePerUnit.toFixed(2)}</TableCell>
-                    <TableCell>₹ {quote.total.toLocaleString()}</TableCell>
-                    <TableCell>₹ {quote.sqValue.toLocaleString()}</TableCell>
+                    <TableCell>৳ {quote.pricePerUnit.toFixed(2)}</TableCell>
+                    <TableCell>৳ {quote.total.toLocaleString()}</TableCell>
+                    <TableCell>৳ {quote.sqValue.toLocaleString()}</TableCell>
                     <TableCell className="text-primary">{quote.sqId}</TableCell>
                   </TableRow>
                 ))}

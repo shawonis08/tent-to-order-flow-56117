@@ -11,10 +11,10 @@ export default function PurchaseOrder() {
   const [view, setView] = useState<"list" | "form">("list");
 
   const purchaseOrders = [
-    { id: "PUR-ORD-2024-00018", supplier: "Vision Tech Ltd", date: "2024-10-08", amount: "$12,500", status: "Draft" },
-    { id: "PUR-ORD-2024-00017", supplier: "Alpha Materials", date: "2024-10-07", amount: "$8,750", status: "Submitted" },
-    { id: "PUR-ORD-2024-00016", supplier: "Beta Components", date: "2024-10-06", amount: "$15,200", status: "Confirmed" },
-    { id: "PUR-ORD-2024-00015", supplier: "Vision Tech Ltd", date: "2024-10-05", amount: "$9,800", status: "Completed" },
+    { id: "PUR-ORD-2024-00018", supplier: "Vision Tech Ltd", date: "2024-10-08", amount: "৳12,500", status: "Draft" },
+    { id: "PUR-ORD-2024-00017", supplier: "Alpha Materials", date: "2024-10-07", amount: "৳8,750", status: "Submitted" },
+    { id: "PUR-ORD-2024-00016", supplier: "Beta Components", date: "2024-10-06", amount: "৳15,200", status: "Confirmed" },
+    { id: "PUR-ORD-2024-00015", supplier: "Vision Tech Ltd", date: "2024-10-05", amount: "৳9,800", status: "Completed" },
   ];
 
   if (view === "form") {
@@ -93,8 +93,8 @@ export default function PurchaseOrder() {
                           <Input type="number" defaultValue="2" className="h-8 w-16" />
                         </div>
                       </TableCell>
-                      <TableCell>$ 600.00</TableCell>
-                      <TableCell className="font-medium">$ 1,200.00</TableCell>
+                      <TableCell>৳ 600.00</TableCell>
+                      <TableCell className="font-medium">৳ 1,200.00</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell>2</TableCell>
@@ -111,8 +111,8 @@ export default function PurchaseOrder() {
                           <Input type="number" defaultValue="10" className="h-8 w-16" />
                         </div>
                       </TableCell>
-                      <TableCell>$ 400.00</TableCell>
-                      <TableCell className="font-medium">$ 4,000.00</TableCell>
+                      <TableCell>৳ 400.00</TableCell>
+                      <TableCell className="font-medium">৳ 4,000.00</TableCell>
                     </TableRow>
                   </TableBody>
                 </Table>
@@ -121,15 +121,15 @@ export default function PurchaseOrder() {
                   <div className="w-64 space-y-2">
                     <div className="flex justify-between text-sm">
                       <span>Subtotal</span>
-                      <span className="font-medium">$ 5,200.00</span>
+                      <span className="font-medium">৳ 5,200.00</span>
                     </div>
                     <div className="flex justify-between text-sm">
                       <span>Tax</span>
-                      <span className="font-medium">$ 520.00</span>
+                      <span className="font-medium">৳ 520.00</span>
                     </div>
                     <div className="flex justify-between text-lg font-bold pt-2 border-t">
                       <span>Total</span>
-                      <span>$ 5,720.00</span>
+                      <span>৳ 5,720.00</span>
                     </div>
                   </div>
                 </div>

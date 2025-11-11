@@ -20,9 +20,9 @@ export default function Dashboard() {
   ];
 
   const activePOs = [
-    { id: "PUR-ORD-2024-00018", supplier: "Vision Tech Ltd", amount: "$12,500", status: "Draft", date: "2024-10-08" },
-    { id: "PUR-ORD-2024-00017", supplier: "Alpha Materials", amount: "$8,750", status: "Submitted", date: "2024-10-07" },
-    { id: "PUR-ORD-2024-00016", supplier: "Beta Components", amount: "$15,200", status: "Confirmed", date: "2024-10-06" },
+    { id: "PUR-ORD-2024-00018", supplier: "Vision Tech Ltd", amount: "৳12,500", status: "Draft", date: "2024-10-08" },
+    { id: "PUR-ORD-2024-00017", supplier: "Alpha Materials", amount: "৳8,750", status: "Submitted", date: "2024-10-07" },
+    { id: "PUR-ORD-2024-00016", supplier: "Beta Components", amount: "৳15,200", status: "Confirmed", date: "2024-10-06" },
   ];
 
   const procurementTrend = [
@@ -86,7 +86,7 @@ export default function Dashboard() {
                   <div key={i} className="flex-1 flex flex-col items-center gap-2">
                     <div className="w-full bg-primary rounded-t" style={{ height: `${height}%` }}>
                       <div className="text-xs text-white text-center pt-2">
-                        ${(item.value / 1000).toFixed(0)}K
+                        ৳{(item.value / 1000).toFixed(0)}K
                       </div>
                     </div>
                     <span className="text-xs text-muted-foreground">{item.month}</span>
