@@ -83,10 +83,10 @@ export default function Dashboard() {
                 const maxValue = Math.max(...procurementTrend.map(p => p.value));
                 const height = (item.value / maxValue) * 100;
                 return (
-                  <div key={i} className="flex-1 flex flex-col items-center gap-2">
+                  <div key={i} className="flex-1 h-full flex flex-col items-center gap-2">
                     <div 
                       className="w-full bg-primary rounded-t flex items-start justify-center pt-2" 
-                      style={{ height: `${height}%`, minHeight: '40px' }}
+                      style={{ height: `${height}%`, minHeight: '12px' }}
                     >
                       <span className="text-xs font-medium text-primary-foreground">
                         ৳{(item.value / 1000).toFixed(0)}K
