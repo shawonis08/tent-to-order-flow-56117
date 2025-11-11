@@ -26,12 +26,12 @@ export default function Dashboard() {
   ];
 
   const procurementTrend = [
-    { month: "Apr", value: 45000 },
-    { month: "May", value: 52000 },
-    { month: "Jun", value: 48000 },
-    { month: "Jul", value: 61000 },
-    { month: "Aug", value: 55000 },
-    { month: "Sep", value: 67000 },
+    { month: "Apr", value: 450000 },
+    { month: "May", value: 520000 },
+    { month: "Jun", value: 480000 },
+    { month: "Jul", value: 610000 },
+    { month: "Aug", value: 550000 },
+    { month: "Sep", value: 670000 },
   ];
 
   return (
@@ -107,7 +107,7 @@ export default function Dashboard() {
               <div className="flex items-center justify-between">
                 <div className="space-y-1">
                   <p className="text-sm font-medium">Raw Materials</p>
-                  <p className="text-2xl font-bold">3,245</p>
+                  <p className="text-2xl font-bold">8,540 kg</p>
                 </div>
                 <div className="w-24 h-24 rounded-full border-8 border-primary flex items-center justify-center">
                   <span className="text-sm font-medium">65%</span>
