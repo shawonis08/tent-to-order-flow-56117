@@ -7,10 +7,10 @@ import { RefreshCw } from "lucide-react";
 
 export default function SupplierQuotation() {
   const quotations = [
-    { supplier: "Boote Jirsa", item: "43567-BLA", uom: "Unit", quantity: 50, price: 8760, pricePerUnit: 175.20, total: 750000, sqValue: 15000, sqId: "PUR-SQTN-2" },
-    { supplier: "Boote Jirsa", item: "43567-BLU", uom: "Unit", quantity: 30, price: 4204.80, pricePerUnit: 140.16, total: 360000, sqValue: 12000, sqId: "PUR-SQTN-2" },
-    { supplier: "Gena Alexsandrovich", item: "43567-BLA", uom: "Unit", quantity: 50, price: 9928, pricePerUnit: 198.56, total: 850000, sqValue: 17000, sqId: "PUR-SQTN-2" },
-    { supplier: "Gena Alexsandrovich", item: "43567-BLU", uom: "Unit", quantity: 30, price: 4555.20, pricePerUnit: 151.84, total: 390000, sqValue: 13000, sqId: "PUR-SQTN-2" },
+    { supplier: "Apex Textile Mills", item: "FABRIC-COT-WHI", uom: "Meters", quantity: 500, price: 90000, pricePerUnit: 180, total: 90000, sqValue: 90000, sqId: "PUR-SQTN-2" },
+    { supplier: "Apex Textile Mills", item: "THREAD-PLY-BLK", uom: "Cone", quantity: 50, price: 6000, pricePerUnit: 120, total: 6000, sqValue: 6000, sqId: "PUR-SQTN-2" },
+    { supplier: "Prime Fabrics Ltd", item: "FABRIC-COT-WHI", uom: "Meters", quantity: 500, price: 95000, pricePerUnit: 190, total: 95000, sqValue: 95000, sqId: "PUR-SQTN-3" },
+    { supplier: "Prime Fabrics Ltd", item: "THREAD-PLY-BLK", uom: "Cone", quantity: 50, price: 5500, pricePerUnit: 110, total: 5500, sqValue: 5500, sqId: "PUR-SQTN-3" },
   ];
 
   return (

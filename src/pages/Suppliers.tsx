@@ -7,10 +7,10 @@ import { Plus, Search } from "lucide-react";
 
 export default function Suppliers() {
   const suppliers = [
-    { name: "Vision Tech Ltd", contact: "Nathan", email: "supplier.user@newvision.com", rating: 4.5, orders: 24 },
-    { name: "Alpha Materials", contact: "Sarah", email: "contact@alphamaterials.com", rating: 4.2, orders: 18 },
-    { name: "Beta Components", contact: "Mike", email: "info@betacomponents.com", rating: 4.8, orders: 32 },
-    { name: "Radiant Solutions", contact: "Annie", email: "annie.munsey@icloud.com", rating: 4.0, orders: 15 },
+    { name: "Apex Textile Mills", contact: "Karim Ahmed", email: "procurement@apextextile.com", rating: 4.5, orders: 45 },
+    { name: "Prime Fabrics Ltd", contact: "Nasrin Sultana", email: "sales@primefabrics.com.bd", rating: 4.2, orders: 32 },
+    { name: "Desh Textile Co", contact: "Rafiqul Islam", email: "info@deshtextile.com", rating: 4.8, orders: 58 },
+    { name: "Fashion Accessories Co", contact: "Shirin Akhter", email: "orders@fashionacc.com.bd", rating: 4.0, orders: 28 },
   ];
 
   return (

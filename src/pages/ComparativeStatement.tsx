@@ -22,12 +22,12 @@ export default function ComparativeStatement() {
 
   // Sample data - would come from API
   const quotations: QuotationData[] = [
-    { item: "43567-BLA", supplier: "Boote Jirsa", quantity: 50, unitPrice: 175.20, total: 8760, deliveryDays: 7, quality: 4, pastPerformance: 4 },
-    { item: "43567-BLA", supplier: "Gena Alexsandrovich", quantity: 50, unitPrice: 198.56, total: 9928, deliveryDays: 5, quality: 5, pastPerformance: 3 },
-    { item: "43567-BLA", supplier: "Kumar Suppliers", quantity: 50, unitPrice: 165.00, total: 8250, deliveryDays: 10, quality: 3, pastPerformance: 5 },
-    { item: "43567-BLU", supplier: "Boote Jirsa", quantity: 30, unitPrice: 140.16, total: 4204.80, deliveryDays: 7, quality: 4, pastPerformance: 4 },
-    { item: "43567-BLU", supplier: "Gena Alexsandrovich", quantity: 30, unitPrice: 151.84, total: 4555.20, deliveryDays: 5, quality: 5, pastPerformance: 3 },
-    { item: "43567-BLU", supplier: "Kumar Suppliers", quantity: 30, unitPrice: 138.00, total: 4140, deliveryDays: 10, quality: 3, pastPerformance: 5 },
+    { item: "FABRIC-COT-WHI", supplier: "Apex Textile Mills", quantity: 500, unitPrice: 180, total: 90000, deliveryDays: 7, quality: 4, pastPerformance: 4 },
+    { item: "FABRIC-COT-WHI", supplier: "Prime Fabrics Ltd", quantity: 500, unitPrice: 190, total: 95000, deliveryDays: 5, quality: 5, pastPerformance: 3 },
+    { item: "FABRIC-COT-WHI", supplier: "Desh Textile Co", quantity: 500, unitPrice: 175, total: 87500, deliveryDays: 10, quality: 3, pastPerformance: 5 },
+    { item: "THREAD-PLY-BLK", supplier: "Apex Textile Mills", quantity: 50, unitPrice: 120, total: 6000, deliveryDays: 7, quality: 4, pastPerformance: 4 },
+    { item: "THREAD-PLY-BLK", supplier: "Prime Fabrics Ltd", quantity: 50, unitPrice: 110, total: 5500, deliveryDays: 5, quality: 5, pastPerformance: 3 },
+    { item: "THREAD-PLY-BLK", supplier: "Desh Textile Co", quantity: 50, unitPrice: 115, total: 5750, deliveryDays: 10, quality: 3, pastPerformance: 5 },
   ];
 
   // Calculate merit score (weighted: 40% price, 30% delivery, 20% quality, 10% past performance)
@@ -101,7 +101,7 @@ export default function ComparativeStatement() {
           <CardContent className="pt-6">
             <div>
               <p className="text-sm text-muted-foreground">Best Value Supplier</p>
-              <p className="text-lg font-semibold">Kumar Suppliers</p>
+              <p className="text-lg font-semibold">Desh Textile Co</p>
             </div>
           </CardContent>
         </Card>
@@ -109,7 +109,7 @@ export default function ComparativeStatement() {
           <CardContent className="pt-6">
             <div>
               <p className="text-sm text-muted-foreground">Potential Savings</p>
-              <p className="text-2xl font-bold text-green-600">৳ 1,368</p>
+              <p className="text-2xl font-bold text-green-600">৳ 7,750</p>
             </div>
           </CardContent>
         </Card>

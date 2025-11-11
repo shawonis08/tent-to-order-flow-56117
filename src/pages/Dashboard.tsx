@@ -20,9 +20,9 @@ export default function Dashboard() {
   ];
 
   const activePOs = [
-    { id: "PUR-ORD-2024-00018", supplier: "Vision Tech Ltd", amount: "৳12,500", status: "Draft", date: "2024-10-08" },
-    { id: "PUR-ORD-2024-00017", supplier: "Alpha Materials", amount: "৳8,750", status: "Submitted", date: "2024-10-07" },
-    { id: "PUR-ORD-2024-00016", supplier: "Beta Components", amount: "৳15,200", status: "Confirmed", date: "2024-10-06" },
+    { id: "PUR-ORD-2024-00018", supplier: "Apex Textile Mills", amount: "৳125,500", status: "Draft", date: "2024-10-08" },
+    { id: "PUR-ORD-2024-00017", supplier: "Prime Fabrics Ltd", amount: "৳87,750", status: "Submitted", date: "2024-10-07" },
+    { id: "PUR-ORD-2024-00016", supplier: "Fashion Accessories Co", amount: "৳45,200", status: "Confirmed", date: "2024-10-06" },
   ];
 
   const procurementTrend = [
@@ -115,16 +115,16 @@ export default function Dashboard() {
               </div>
               <div className="space-y-2">
                 <div className="flex items-center justify-between text-sm">
-                  <span>Finished Goods</span>
-                  <span className="font-medium">1,892 units</span>
+                  <span>Finished T-Shirts</span>
+                  <span className="font-medium">12,450 pcs</span>
                 </div>
                 <div className="flex items-center justify-between text-sm">
                   <span>In Production</span>
-                  <span className="font-medium">456 units</span>
+                  <span className="font-medium">3,250 pcs</span>
                 </div>
                 <div className="flex items-center justify-between text-sm">
                   <span>Low Stock Items</span>
-                  <span className="font-medium text-destructive">23 items</span>
+                  <span className="font-medium text-destructive">8 items</span>
                 </div>
               </div>
             </div>

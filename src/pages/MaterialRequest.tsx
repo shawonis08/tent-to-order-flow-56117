@@ -20,7 +20,7 @@ export default function MaterialRequest() {
   ];
 
   const [items, setItems] = useState([
-    { itemCode: "12345-WHI-128GB", requiredBy: "2024-10-15", description: "iPhone 13-WHI-128GB", quantity: 10, uom: "Unit", warehouse: "Stores - S" }
+    { itemCode: "FABRIC-COT-BLK", requiredBy: "2024-10-15", description: "Cotton Fabric - Black - 180 GSM", quantity: 500, uom: "Meters", warehouse: "Raw Material Store" }
   ]);
 
   if (view === "form") {
@@ -132,8 +132,8 @@ export default function MaterialRequest() {
                     requiredBy: "2024-10-15", 
                     description: "", 
                     quantity: 1, 
-                    uom: "Unit", 
-                    warehouse: "Stores - S" 
+                    uom: "Meters", 
+                    warehouse: "Raw Material Store" 
                   }])}
                 >
                   <Plus className="h-4 w-4 mr-2" />

@@ -11,10 +11,10 @@ export default function PurchaseOrder() {
   const [view, setView] = useState<"list" | "form">("list");
 
   const purchaseOrders = [
-    { id: "PUR-ORD-2024-00018", supplier: "Vision Tech Ltd", date: "2024-10-08", amount: "৳12,500", status: "Draft" },
-    { id: "PUR-ORD-2024-00017", supplier: "Alpha Materials", date: "2024-10-07", amount: "৳8,750", status: "Submitted" },
-    { id: "PUR-ORD-2024-00016", supplier: "Beta Components", date: "2024-10-06", amount: "৳15,200", status: "Confirmed" },
-    { id: "PUR-ORD-2024-00015", supplier: "Vision Tech Ltd", date: "2024-10-05", amount: "৳9,800", status: "Completed" },
+    { id: "PUR-ORD-2024-00018", supplier: "Apex Textile Mills", date: "2024-10-08", amount: "৳125,500", status: "Draft" },
+    { id: "PUR-ORD-2024-00017", supplier: "Prime Fabrics Ltd", date: "2024-10-07", amount: "৳87,750", status: "Submitted" },
+    { id: "PUR-ORD-2024-00016", supplier: "Fashion Accessories Co", date: "2024-10-06", amount: "৳45,200", status: "Confirmed" },
+    { id: "PUR-ORD-2024-00015", supplier: "Apex Textile Mills", date: "2024-10-05", amount: "৳98,400", status: "Completed" },
   ];
 
   if (view === "form") {
@@ -50,7 +50,7 @@ export default function PurchaseOrder() {
                 <div className="space-y-4">
                   <div className="space-y-2">
                     <Label htmlFor="supplier">Supplier Name</Label>
-                    <Input id="supplier" defaultValue="New Vision Optics" />
+                    <Input id="supplier" defaultValue="Apex Textile Mills" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="date">Date</Label>
@@ -82,37 +82,37 @@ export default function PurchaseOrder() {
                       <TableCell>1</TableCell>
                       <TableCell>
                         <div>
-                          <div className="font-medium">12345-WHI-256GB</div>
-                          <div className="text-sm text-muted-foreground">iPhone 13-WHI-256GB</div>
-                          <div className="text-xs text-muted-foreground">UOM: Unit</div>
+                          <div className="font-medium">FABRIC-COT-WHI</div>
+                          <div className="text-sm text-muted-foreground">Cotton Fabric - White - 180 GSM</div>
+                          <div className="text-xs text-muted-foreground">UOM: Meters</div>
                         </div>
                       </TableCell>
                       <TableCell>
                         <div className="flex items-center gap-2">
-                          <span className="text-sm">Unit</span>
-                          <Input type="number" defaultValue="2" className="h-8 w-16" />
+                          <span className="text-sm">Meters</span>
+                          <Input type="number" defaultValue="500" className="h-8 w-16" />
                         </div>
                       </TableCell>
-                      <TableCell>৳ 600.00</TableCell>
-                      <TableCell className="font-medium">৳ 1,200.00</TableCell>
+                      <TableCell>৳ 180.00</TableCell>
+                      <TableCell className="font-medium">৳ 90,000.00</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell>2</TableCell>
                       <TableCell>
                         <div>
-                          <div className="font-medium">23456-LV-256GB</div>
-                          <div className="text-sm text-muted-foreground">Samsung Galaxy S-23-LV-256GB</div>
-                          <div className="text-xs text-muted-foreground">UOM: Unit</div>
+                          <div className="font-medium">THREAD-PLY-BLK</div>
+                          <div className="text-sm text-muted-foreground">Polyester Thread - Black - 40/2</div>
+                          <div className="text-xs text-muted-foreground">UOM: Cone</div>
                         </div>
                       </TableCell>
                       <TableCell>
                         <div className="flex items-center gap-2">
-                          <span className="text-sm">Unit</span>
-                          <Input type="number" defaultValue="10" className="h-8 w-16" />
+                          <span className="text-sm">Cone</span>
+                          <Input type="number" defaultValue="50" className="h-8 w-16" />
                         </div>
                       </TableCell>
-                      <TableCell>৳ 400.00</TableCell>
-                      <TableCell className="font-medium">৳ 4,000.00</TableCell>
+                      <TableCell>৳ 120.00</TableCell>
+                      <TableCell className="font-medium">৳ 6,000.00</TableCell>
                     </TableRow>
                   </TableBody>
                 </Table>
@@ -121,15 +121,15 @@ export default function PurchaseOrder() {
                   <div className="w-64 space-y-2">
                     <div className="flex justify-between text-sm">
                       <span>Subtotal</span>
-                      <span className="font-medium">৳ 5,200.00</span>
+                      <span className="font-medium">৳ 96,000.00</span>
                     </div>
                     <div className="flex justify-between text-sm">
                       <span>Tax</span>
-                      <span className="font-medium">৳ 520.00</span>
+                      <span className="font-medium">৳ 14,400.00</span>
                     </div>
                     <div className="flex justify-between text-lg font-bold pt-2 border-t">
                       <span>Total</span>
-                      <span>৳ 5,720.00</span>
+                      <span>৳ 110,400.00</span>
                     </div>
                   </div>
                 </div>

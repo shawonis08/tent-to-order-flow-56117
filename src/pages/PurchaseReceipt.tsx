@@ -7,9 +7,9 @@ import { Plus, Search } from "lucide-react";
 
 export default function PurchaseReceipt() {
   const receipts = [
-    { id: "MAT-PRE-2024-00008", po: "PUR-ORD-2024-00016", supplier: "Beta Components", date: "2024-10-08", status: "Completed" },
-    { id: "MAT-PRE-2024-00007", po: "PUR-ORD-2024-00015", supplier: "Vision Tech Ltd", date: "2024-10-07", status: "Pending" },
-    { id: "MAT-PRE-2024-00006", po: "PUR-ORD-2024-00014", supplier: "Alpha Materials", date: "2024-10-06", status: "Completed" },
+    { id: "MAT-PRE-2024-00008", po: "PUR-ORD-2024-00016", supplier: "Fashion Accessories Co", date: "2024-10-08", status: "Completed" },
+    { id: "MAT-PRE-2024-00007", po: "PUR-ORD-2024-00015", supplier: "Apex Textile Mills", date: "2024-10-07", status: "Pending" },
+    { id: "MAT-PRE-2024-00006", po: "PUR-ORD-2024-00014", supplier: "Prime Fabrics Ltd", date: "2024-10-06", status: "Completed" },
   ];
 
   return (
