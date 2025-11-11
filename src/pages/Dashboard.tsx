@@ -84,12 +84,15 @@ export default function Dashboard() {
                 const height = (item.value / maxValue) * 100;
                 return (
                   <div key={i} className="flex-1 flex flex-col items-center gap-2">
-                    <div className="w-full bg-primary rounded-t" style={{ height: `${height}%` }}>
-                      <div className="text-xs text-white text-center pt-2">
+                    <div 
+                      className="w-full bg-primary rounded-t flex items-start justify-center pt-2" 
+                      style={{ height: `${height}%`, minHeight: '40px' }}
+                    >
+                      <span className="text-xs font-medium text-primary-foreground">
                         ৳{(item.value / 1000).toFixed(0)}K
-                      </div>
+                      </span>
                     </div>
-                    <span className="text-xs text-muted-foreground">{item.month}</span>
+                    <span className="text-xs text-muted-foreground font-medium">{item.month}</span>
                   </div>
                 );
               })}
