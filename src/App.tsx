@@ -11,6 +11,7 @@ import RFQ from "./pages/RFQ";
 import SupplierQuotation from "./pages/SupplierQuotation";
 import PurchaseReceipt from "./pages/PurchaseReceipt";
 import Suppliers from "./pages/Suppliers";
+import ComparativeStatement from "./pages/ComparativeStatement";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/purchase-order" element={<AppLayout><PurchaseOrder /></AppLayout>} />
           <Route path="/rfq" element={<AppLayout><RFQ /></AppLayout>} />
           <Route path="/supplier-quotation" element={<AppLayout><SupplierQuotation /></AppLayout>} />
+          <Route path="/comparative-statement" element={<AppLayout><ComparativeStatement /></AppLayout>} />
           <Route path="/purchase-receipt" element={<AppLayout><PurchaseReceipt /></AppLayout>} />
           <Route path="/suppliers" element={<AppLayout><Suppliers /></AppLayout>} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

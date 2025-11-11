@@ -16,6 +16,7 @@ const navigation = [
   { title: "Material Request", url: "/material-request", icon: ClipboardList },
   { title: "Request for Quotation", url: "/rfq", icon: FileText },
   { title: "Supplier Quotation", url: "/supplier-quotation", icon: TrendingUp },
+  { title: "Comparative Statement", url: "/comparative-statement", icon: TrendingUp },
   { title: "Purchase Order", url: "/purchase-order", icon: ShoppingCart },
   { title: "Purchase Receipt", url: "/purchase-receipt", icon: Package },
   { title: "Suppliers", url: "/suppliers", icon: Users },
